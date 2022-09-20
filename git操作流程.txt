@@ -1,0 +1,165 @@
+在桌面創新資料夾
+github + new repositry
+
+
+
+cmd視窗打開
+-->cd C:\Users\User\Desktop\資料夾名稱
+
+
+
+echo "# hi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dreamteamai/hi.git
+git push -u origin main
+
+
+
+將hi.py放入  /hi資料夾內
+
+git add hi.py
+git commit -m "Add new file"
+git push -u origin main
+
+
+
+
+
+git add .     #上傳這個資料夾以下的所有檔案
+git ignore    
+
+
+#建立資料夾
+mkdir XXX
+
+
+#git 初始設定
+git config --global user.name "Tony Lin"
+git config --global user.email tonylinquant@gmail.com
+
+///////////////////////////////////////////////////////////網站範例
+…or create a new repository on the command line
+
+echo "# c_to_f" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dreamteamai/c_to_f.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/dreamteamai/c_to_f.git
+git branch -M main
+git push -u origin main
+///////////////////////////////////////////////////////////網站範例
+
+
+
+
+
+
+//////////////////////////////////////////////////////////註
+get from VCS  (version control) 版本控管系統  git  
+
+pycharm 專案路徑:
+C:\Users\ariel\PycharmProjects\pythonProject
+
+
+cmd的2種輸出跟1種輸入:
+stdout
+stdin
+stderr
+//////////////////////////////////////////////////////////註
+
+
+
+
+
+
+//////////////////////////////////////////////////////////建立虛擬環境
+
+pip install virtualenv
+
+建立一個資料夾 名為:project
+
+cd Desktop
+cd project
+virtualenv venv       (建立虛擬環境, 命名為venv)
+
+cd venv\Scripts
+activate      (進入虛擬環境)
+
+
+
+
+安裝requirements.txt 裡面有的package:
+pip install -r requirements.txt
+
+
+
+cd ../..
+將虛擬環境裡面所需的package產生成requirements.txt:
+pip freeze > requirements.txt
+
+
+
+deactivate    (退出虛擬環境)
+
+//////////////////////////////////////////////////////////建立虛擬環境
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////pycharm快捷鍵
+ctrl + k    :叫出command
+commit message輸入完後按commit
+ctrl + shift + k :push
+//////////////////////////////////////////////////////////pycharm快捷鍵
+
+
+
+
+#3種方法可存API key
+1.存在OS的環境變數  (不建議)
+2.用dotenv   (settings.py,   .env)    
+3.存成config檔案    套件:configparser
+
+
+
+sweet的yt api key:
+AIzaSyDG13-XXmJN1t8tQCg0OpQ1E7qRyo0Whfc
+
+
+
+
+
+
+//////////////////////////////////////////////////////////git push rejected 問題
+打開cmd
+cd到專案的資料夾
+
+git log
+
+git push -f   (強制push)
+//////////////////////////////////////////////////////////git push rejected 問題
+
+
+
+
+//////////////////////////////////////////////////////////更改github認證
+認證管理員 (credential manager)
+
+windows認證.....
+
+
+//////////////////////////////////////////////////////////更改github認證
